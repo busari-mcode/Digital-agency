@@ -5,7 +5,7 @@ const serviceData = [
     {
         icon: 'ri-apps-line',
         title: 'App Development',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, amet blanditiis debitis reiciendis eligendi sit!'
+        desc: 'Lorem ipsum dolor sit amet consectetur amet blanditiis debitis reiciendis eligendi sit!'
     },
 
     {

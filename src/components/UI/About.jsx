@@ -1,23 +1,25 @@
 import React from 'react';
 import '../../styles/about.css';
 
+import aboutImg from'../../images/about-us.jpg'
+
 const chooseData = [
     {
         icon: 'ri-wifi-line',
         title: 'First working process',
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aperiam sed temporibus, repudiandae blanditiis nam aut! Eos assumenda quam qui."
+        desc: "Lorem ipsum dolor sit Aspernatur aperiam sed temporibus, repudiandae blanditiis nam aut! Eos assumenda quam qui."
     },
     
     {
         icon: 'ri-team-line',
         title: 'Dedicated team',
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aperiam sed temporibus, repudiandae blanditiis nam aut! Eos assumenda quam qui."
+        desc: "Lorem ipsum dolor sit Aspernatur aperiam sed temporibus, repudiandae blanditiis nam aut! Eos assumenda quam qui."
     },
 
     {
         icon: 'ri-customer-service-2-line',
         title: '24/7 Hours support',
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aperiam sed temporibus, repudiandae blanditiis nam aut! Eos assumenda quam qui."
+        desc: "Lorem ipsum dolor sit Aspernatur aperiam sed temporibus, repudiandae blanditiis nam aut! Eos assumenda quam qui."
     },
 ]
 
@@ -35,7 +37,6 @@ const About = () => {
                         elit. Ex iure reiciendis nostrum quasi soluta placeat 
                         commodi architecto, 
                         quibusdam esse cumque et, repellat facilis voluptatem 
-                        adipisci numquam distinctio quis neque facere.
                     </p>
 
                     <div className="choose__item-wrapper">
@@ -57,7 +58,9 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="about__img"></div>
+                <div className="about__img">
+                    <img src={aboutImg} alt="" />
+                </div>
             </div>
         </div>
     </section>
