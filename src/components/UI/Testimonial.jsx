@@ -2,6 +2,8 @@ import React from 'react';
 import '../../styles/testimonial.css';
 import Slider from 'react-slick';
 import ava01 from '../../images/ava-1.jpg';
+import ava02 from '../../images/ava-2.jpg';
+import ava03 from '../../images/ava-3.jpg';
 
 
 const Testimonial = () => {
@@ -11,10 +13,12 @@ const Testimonial = () => {
         infinite: true,
         speed: 1000,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        swipeToSlide: true,
     }
+
   return (
     <section>
         <div className="container">
@@ -57,12 +61,12 @@ const Testimonial = () => {
 
                      <div className="customer__details">
                         <div className="customer__img">
-                            <img src={ava01} alt="" />
+                            <img src={ava02} alt="" />
                         </div>
 
                         <div>
-                            <h5 className="customer__name">Jhon Doe</h5>
-                            <p className="description">CEO, Workcreation</p>
+                            <h5 className="customer__name">Anney Martin</h5>
+                            <p className="description">Software Developer</p>
                         </div>
                      </div>
                     </div>
@@ -78,12 +82,12 @@ const Testimonial = () => {
 
                      <div className="customer__details">
                         <div className="customer__img">
-                            <img src={ava01} alt="" />
+                            <img src={ava03} alt="" />
                         </div>
 
                         <div>
-                            <h5 className="customer__name">Jhon Doe</h5>
-                            <p className="description">CEO, Workcreation</p>
+                            <h5 className="customer__name">William Cooper</h5>
+                            <p className="description">Sr. Product Designer</p>
                         </div>
                      </div>
                     </div>

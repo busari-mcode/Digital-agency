@@ -45,17 +45,10 @@
 
 .primary__btn{
     background: var(--btn-secondary-bg);
-    transition: transform 0.5s;
     border: 1px solid var(--btn-primary-bg);
 }
 
-.primary__btn:hover,
-.secondary__btn:hover
-{
-    transform: scale(1.2);
-}
 
 .secondary__btn {
     background: var(--btn-primary-bg);
-    transition: transform 0.5s;
 }
