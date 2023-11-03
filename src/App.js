@@ -16,7 +16,7 @@ function App() {
   const [theme, setTheme] = useState('')
 
   const toggleTheme = () => {
-    theme === '' ? setTheme('light-theme') : setTheme('')
+    theme == '' ? setTheme('light-theme') : setTheme('')
   }
 
   useEffect(() => {
