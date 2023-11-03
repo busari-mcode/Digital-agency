@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../styles/hero.css'
-import heroDarkImg from '../../images/hero-img.png'
+import heroDarkImg from '../../images/hero-img.png';
 
 const Hero = () => {
   return (
