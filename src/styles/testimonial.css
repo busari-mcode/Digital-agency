@@ -52,4 +52,8 @@
     .slider__wrapper {
         width: 90%;
     }
+
+    .customer__name {
+        font-size: 1rem;
+    }
 }
