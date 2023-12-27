@@ -15,10 +15,12 @@ const Hero = ({theme}) => {
                         <h2 className="highlight">Promote Your Brand</h2>
                     </div>
                     <p className="description">
-                        Lorem, ipsum dolor sit amet consectetur 
-                        adipisicing elit. Veritatis natus adipisci 
-                        eos mollitia magnam recusandae cum quam 
-                        corrupti, molestiae doloribus!
+                        Our dedicated team leverages cutting-edge technologies and 
+                        innovative design strategies to craft flawless digital products 
+                        that not only elevate your brand but also captivate your audience. 
+                        With meticulous attention to detail and a commitment to excellence, 
+                        we ensure that each product we create seamlessly integrates with your 
+                        brand identity, delivering a compelling and unforgettable user experience.
                     </p>
 
                     <div className="hero__btns">
